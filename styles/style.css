@@ -1,0 +1,120 @@
+body{
+    background-color: black;
+    margin:0;
+    overflow-anchor: none;
+}
+select{
+    position: absolute;
+    background-color: #2c2727;
+    margin: 20px 20px 0 0;
+    right: 0;
+    width: 80px;
+    height: 30px;
+    color: #bbc2c2;
+    border: 1px solid black;
+    border-radius: 20%;
+}
+option{
+    color: #bbc2c2;
+    border-radius: 20px 20px 0 0;
+}
+.headcontainer{
+    height: 100vh;
+}
+#imgprogrammer{
+    display: block;
+    width: 25vw;
+    height: auto;
+    padding-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(0px 0px 12px white);
+    /* /* animation: fadeInUp; */
+    animation-duration: 1s;
+    /* animation-fill-mode: forwards; */
+}
+*{
+    user-select: none;
+}
+#lng-textprogrammer{
+    font-size: 50px;
+    color: white;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+.paragraph1{
+    padding-top: 150px;
+    height: 80vh;
+    width: 100%;
+}
+.textdiv1{
+    margin-left: 60px;
+    float: left;
+    width: -webkit-fill-available;
+}
+.textdiv11{
+    display: inline-table;
+    width:40vw;
+}
+#lng-firsttext{
+    font-family: "Rajdhani";
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: #C84630;
+}
+#imgoffices{
+    margin-right: 50px;
+    float: right;
+}
+@media screen and (max-width: 600px){
+    body{
+        overflow-anchor: none;
+    }
+    #imgprogrammer{
+        width: 40vw;
+    }
+    select{
+        width: 90px;
+        height: 50px;
+    }
+    #lng-textprogrammer {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        display: table;
+        /* margin-left: auto; */
+        /* margin-right: auto;*/
+    }
+    #lng-firsttext {
+        /* text-align: center; */
+        font-family: "Rajdhani";
+        font-size: 25px;
+        letter-spacing: 1px;
+        color: #C84630;
+        width: 80vw;
+        margin: 0 auto;
+    }
+    #imgoffices {
+        /* margin-right: 50px; */
+        float: right;
+        margin: 0 auto;
+        width: 100%;
+    }
+    #socialmedia{
+        left: 20%;
+    }
+    #comment{
+        right: 20%;
+    }
+}
+@media screen and (max-width: 450px) {
+    #imgprogrammer{
+        width: 60vw;
+    }
+}
+@font-face {
+	font-family: "Rye";
+	src: url("/fonts/Rye-Regular.ttf");
+	font-weight: normal;
+}

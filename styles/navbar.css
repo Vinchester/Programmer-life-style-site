@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+}
+*{
+    user-select: none;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(255, 255, 255);
+    opacity: 80%;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0px;
+    border-radius: 120px 120px 0px 0px / 35px 35px 0px 0px;
+    box-shadow: 0px -3px 15px -5px rgba(255, 255, 255, 0.76);
+}
+#logo{
+    display: inline-block;
+    width: 5em;
+    height: auto;
+    margin: 0 auto;
+    position: absolute;
+}
+
+#logo:hover{
+    animation: pulse;
+    animation-duration: 0.5s;
+}
+#socialmedia{
+    width: 5em;
+    height: auto;
+    margin: 0;
+    position: fixed;
+    float: left;
+    left: 30%;
+}
+#socialmedia:hover{
+    animation: pulse;
+    animation-duration: 0.5s;
+    cursor:pointer;
+}
+#comment{
+    display: block;
+    width: 5em;
+    height: auto;
+    margin: 0;
+    position:relative;
+    float: right;
+    right: 30%;
+    bottom:0;
+}
+#comment:hover{
+    animation: pulse;
+    animation-duration: 0.5s;
+}
+.pulse{
+    animation:pulse;
+    animation-duration: 0.5s;
+}
+.bounce{
+    animation: flipInX;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes up {
+    0%{
+        bottom:0%;
+    }50%{
+        bottom:5%;
+    }100%{
+        bottom:10%
+    }
+}
+@keyframes down{
+    0%{
+        bottom:10%;
+    }50%{
+        bottom:5%;
+    }100%{
+        bottom:0%;
+    }
+}

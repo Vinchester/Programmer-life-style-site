@@ -1,0 +1,30 @@
+body{
+    margin: 0%;
+    background-color: blue;
+}
+footer{
+    background-color: rgba(0, 1, 49, 0.97);
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    bottom:0px;
+}
+.year{
+    display: contents;
+    position: absolute;
+    text-align: center;
+}
+.yeartext{
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    filter: drop-shadow(0px 0px 12px white);
+}
+.copyrights{
+    text-align: center;
+}
+.copytext{
+    font-size: 30px;
+    font-weight: normal;
+    color: aliceblue;
+}
